@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+  width: 100%;
+}
+@keyframes ArrowAnimation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  75% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
